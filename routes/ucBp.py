@@ -16,7 +16,7 @@ def uc_list():
     ucs_query = Uc.query.all()
     return render_template('uc_list.html', ucs=ucs_query)
 
-@ucBp.route('uc/create')
+@ucBp.route('/uc/create')
 def create_uc():
     return render_template('uc_create.html')
 
