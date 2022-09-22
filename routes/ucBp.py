@@ -5,7 +5,7 @@ from ..models.uc import Uc
 from datetime import date, datetime
 
 # Instanciar o blueprint
-ucBp = Blueprint('ucBP', __name__)
+ucBp = Blueprint('ucBp', __name__)
 
 @ucBp.route('/uc')
 def uc_list():
